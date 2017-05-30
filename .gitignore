@@ -112,3 +112,7 @@ gradle-app.setting
 ## OS Specific
 .DS_Store
 Thumbs.db
+/gradle
+/gradle.properties
+/gradlew
+/gradlew.bat
