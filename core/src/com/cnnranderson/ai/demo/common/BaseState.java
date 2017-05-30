@@ -6,8 +6,8 @@ import com.cnnranderson.ai.demo.DemoStateManager;
 public abstract class BaseState {
 
     // References
-    Application app;
-    DemoStateManager stateManager;
+    protected Application app;
+    protected DemoStateManager stateManager;
 
     protected BaseState(final Application app, final DemoStateManager stateManager) {
         this.app = app;

@@ -1,4 +1,4 @@
-package com.cnnranderson.ai.demo.wander;
+package com.cnnranderson.ai.demo.movement.wander;
 
 import com.cnnranderson.ai.Application;
 import com.cnnranderson.ai.demo.DemoStateManager;

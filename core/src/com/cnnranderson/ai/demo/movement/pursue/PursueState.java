@@ -1,15 +1,15 @@
-package com.cnnranderson.ai.demo.flock;
+package com.cnnranderson.ai.demo.movement.pursue;
 
 import com.cnnranderson.ai.Application;
 import com.cnnranderson.ai.demo.DemoStateManager;
 import com.cnnranderson.ai.demo.common.BaseState;
 
-public class FlockState extends BaseState {
+public class PursueState extends BaseState {
 
-    public FlockState(Application app, DemoStateManager stateManager) {
+    public PursueState(Application app, DemoStateManager stateManager) {
         super(app, stateManager);
     }
-    
+
     @Override
     public void input() {
 

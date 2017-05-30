@@ -1,12 +1,12 @@
-package com.cnnranderson.ai.demo.pursue;
+package com.cnnranderson.ai.demo.movement.formation;
 
 import com.cnnranderson.ai.Application;
 import com.cnnranderson.ai.demo.DemoStateManager;
 import com.cnnranderson.ai.demo.common.BaseState;
 
-public class PursueState extends BaseState {
+public class FormationState extends BaseState {
 
-    public PursueState(Application app, DemoStateManager stateManager) {
+    public FormationState(Application app, DemoStateManager stateManager) {
         super(app, stateManager);
     }
 
