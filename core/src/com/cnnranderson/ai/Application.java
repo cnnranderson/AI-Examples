@@ -51,6 +51,6 @@ public class Application extends ApplicationAdapter {
 
 	private void initStateManager() {
 		mStateManager = new DemoStateManager(this);
-		mStateManager.setState(DemoStateManager.State.FLOCK);
+		mStateManager.setState(DemoStateManager.State.PURSUE);
 	}
 }
